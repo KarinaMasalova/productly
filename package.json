@@ -16,5 +16,8 @@
     "url": "https://github.com/KarinaMasalova/productly/issues"
   },
   "homepage": "https://github.com/KarinaMasalova/productly#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
