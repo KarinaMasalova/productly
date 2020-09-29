@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
-    @extend %font-add;
+    @extend %font-primary;
+    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
 }
 
 h1 {
