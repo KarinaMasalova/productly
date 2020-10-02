@@ -712,7 +712,7 @@ h5 {
   font-size: 1.6rem;
   font-weight: 400;
   font-style: normal;
-  line-height: 35px;
+  line-height: 3.5rem;
 }
 .footer-navigation__links a:hover {
   color: #FF9900;
@@ -773,6 +773,51 @@ h5 {
 }
 .contact-us__link:hover a {
   text-decoration: underline;
+}
+
+.employee {
+  position: relative;
+  display: flex;
+  width: calc(30% - $image-gap);
+}
+
+.employee-container {
+  padding-right: 32px;
+}
+
+.employee__content {
+  padding: 35px;
+}
+
+.employee__name {
+  margin: 0;
+}
+
+.employee__title {
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 2.6rem;
+  margin: 0;
+}
+
+.employee__contact {
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 2.6rem;
+  color: #1943EF;
+  text-decoration: none;
+}
+.employee__contact:hover {
+  text-decoration: underline;
+}
+
+.employee__photo {
+  position: absolute;
+  top: 10px;
+  right: -54px;
+  border-radius: 50%;
 }
 
 .promo {
@@ -884,6 +929,10 @@ h5 {
 .about-us__title {
   margin: 0 0 14px;
   color: #2F281E;
+}
+
+.about-us__description {
+  margin: 0 0 45px;
 }
 
 .about-us__text {

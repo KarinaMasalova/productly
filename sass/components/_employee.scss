@@ -1,0 +1,40 @@
+$image-gap: 32px;
+
+.employee {
+    position: relative;
+    display: flex;
+    width: calc(30% - $image-gap);
+}
+
+.employee-container {
+    padding-right: $image-gap;
+}
+
+.employee__content {
+    padding: 35px;
+}
+
+.employee__name {
+    margin: 0;
+}
+
+.employee__title {
+    @include font($size: 1.4rem, $weight: normal, $height: 2.6rem);
+    margin: 0;
+}
+
+.employee__contact {
+    @include font($size: 1.4rem, $weight: normal, $height: 2.6rem);
+    color: $color-link;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.employee__photo {
+    position: absolute;
+    top: 10px;
+    right: -54px;
+    border-radius: 50%;
+}
