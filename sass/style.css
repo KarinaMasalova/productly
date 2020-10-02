@@ -421,7 +421,7 @@ section, main, header, footer, article {
   display: block;
 }
 
-.navigation__link, .logo-path {
+.navigation__link, .footer-navigation__links a, .logo-path {
   transition: all 0.3s ease-out;
 }
 
@@ -429,7 +429,7 @@ section, main, header, footer, article {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.promo__text, .link-button, h1 {
+.promo__text, .footer-navigation__links, .link-button, h1 {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
@@ -685,8 +685,37 @@ h5 {
   flex-basis: 48%;
 }
 
+.footer {
+  padding: 60px 0 70px;
+}
+
 .footer__wrapper {
   display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  padding-left: 151px;
+}
+
+.footer-navigation__title {
+  margin: 0 0 15px;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 3rem;
+}
+
+.footer-navigation__links a {
+  text-decoration: none;
+  color: #544837;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 35px;
+}
+.footer-navigation__links a:hover {
+  color: #FF9900;
 }
 
 .contact-us {
